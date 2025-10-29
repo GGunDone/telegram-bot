@@ -115,7 +115,7 @@ def handle_message(message):
         
     elif text == "/push_news":
         # Команда для отправки push-уведомления (только для админа)
-        if str(user_id) == "YOUR_ADMIN_ID":  # Замените на ваш Telegram ID
+        if str(user_id) == "6834128398":  # Замените на ваш Telegram ID
             send_message(chat_id, "🚀 Отправляем push-уведомление всем пользователям...")
             sent, failed = send_news_update()
             send_message(chat_id, f"✅ Push-рассылка завершена!\nОтправлено: {sent}\nОшибок: {failed}")
