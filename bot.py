@@ -13,7 +13,7 @@ load_dotenv("config.env")
 
 # Конфигурация
 TOKEN = os.getenv("BOT_TOKEN")
-BONUS_URL = "https://vodka5.xyz?id=14245"
+BONUS_URL = "https://send1.vodka?id=8481"
 IMAGE_PATH = "bot.jpg.jpg"
 
 # Создаем бота и диспетчер
